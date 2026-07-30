@@ -20,7 +20,7 @@ A responsive, data-driven security bundle builder prototype built with React, Ta
 git clone [https://github.com/Hesham-Hamdan/Bundle-Builder.git](https://github.com/Hesham-Hamdan/Bundle-Builder.git)
 
 # 2. Navigate to the project directory
-cd your-repo-name
+cd Bundle-Builder
 
 # 3. Install dependencies
 npm install
