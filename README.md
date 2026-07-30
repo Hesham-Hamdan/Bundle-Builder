@@ -31,8 +31,10 @@ npm run dev
 
 ## 🛠️ Key Architectural Decisions & Features
 
+- **Component Modularity:** The UI is strictly separated into reusable components (like ProductCard and AccordionSection) and major layouts to ensure a clean, maintainable codebase.
 - **Data-Driven Architecture:** Catalog items and initial bundle states are loaded dynamically from data.json.
 - **Centralized State Management:** React Context API (BundleContext) manages live total calculations, quantity adjustments, and localStorage persistence.
+- **Responsive Design Strategy:** Built with full mobile-to-desktop fluid responsiveness, including custom height-based CSS media queries to match exact Figma specifications.
 - **Typography:** Global integration of custom Gilroy font weights via @font-face definitions in Tailwind CSS.
 
 ## ⚖️ Tradeoffs & Future Enhancements
